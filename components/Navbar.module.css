@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff
+}
+
+.lol {
+  padding-right: 300px;
+}
+
+.wait {
+  padding-right: 200px;
+}
+
+
+.navbarActions {
+  display: flex;
+  gap: 20px;
+}
+
+
+  .logo > img {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+  }
+

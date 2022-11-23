@@ -1,0 +1,30 @@
+.primary {
+    width: 140px;
+    height: 60px;
+    color: white;
+    font-size: 24px;
+    background-color: #FF357E;
+    border: 1px solid #FF357E;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  .primary:hover {
+    background-color: #9b192f;
+    border: 1px solid #9b192f;
+  }
+  
+  .secondary {
+    width: 140px;
+    height: 60px;
+    color: black;
+    font-size: 24px;
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  .secondary:hover {
+    text-decoration: underline;
+  }
+  
