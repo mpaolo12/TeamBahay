@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  padding-left: 110px;
+
+}
+.kahon {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  background: white;
+  padding: 32px 25px;
+  align-items: center;
+
+}
+#submitbtn{
+  background-color: mediumslateblue;
+  border-width: 1px;
+  border-radius: 10px  ; 
+  align-items: center;
+}
+
+.navbarActions {
+  display: flex;
+  gap: 20px;
+}
+.Changepasscode{
+  padding-top: 50px;
+
+
+}
+.Changepasscodepic >img {
+  width: 100%;
+  height: 100%;
+
+}
+.Changepasscodepic{
+  padding-left: 50px;
+
+
+}
+
+@media screen and (max-width: 500px) {
+  .navbarActions {
+    display: none;
+  }
+  .Changepasscodepic > img {
+    width: 80%;
+    height: 80%;
+
+  }
+}

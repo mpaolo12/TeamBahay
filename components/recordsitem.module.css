@@ -1,0 +1,44 @@
+.container {
+
+
+  margin: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+
+.TableContent{
+  border: 0.3px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.3cm;
+}   
+.TableContent1{
+  border: 0.3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.TableContent2{
+  border: 0.3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding-top: 400px;
+}
+.TableContent1, .Table-Content2 {
+  padding: 5px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbarActions {
+    display: none;
+  }
+  .Changepasscodepic > img {
+    width: 80%;
+    height: 80%;
+
+  }
+}
