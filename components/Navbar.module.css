@@ -2,28 +2,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   background-color: #ffffff
 }
 
 .lol {
-  padding-right: 300px;
+  padding-right: 70%;
 }
 
-.wait {
-  padding-right: 200px;
+#submitbtn {
+  width: 120px;
+  height: 50px;
+  font-size: 24px;
+  background-color: #FF357E;
+  border: 1px solid #ffdca0;
+  cursor: pointer;
+  border-radius: 30px;
 }
 
-
-.navbarActions {
-  display: flex;
-  gap: 20px;
+.logo > img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
 }
-
-
-  .logo > img {
-    width: 100px;
-    height: 100px;
-    padding: 15px;
-  }
 

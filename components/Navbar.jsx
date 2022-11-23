@@ -1,4 +1,4 @@
-import Button from "./Button";
+
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
@@ -10,13 +10,7 @@ const Navbar = () => {
       <div className={styles.lol}>
       <h2>Alexa's House</h2>
       </div>
-      <div className={styles.wait}>
-      <h2>Dashboard</h2>
-      </div>
-      <div className={styles.navbarActions}>
-        <Button variant="secondary">About</Button>
-        <Button variant="secondary">Contact</Button>
-      </div>
+      <button  type="submit" id={styles.submitbtn}> Back</button>
     </div>
   );
 };

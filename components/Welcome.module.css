@@ -1,17 +1,41 @@
-.container > p {
-    font-size: 50px;
-    margin-bottom: 0;
-    line-height: 1;
-    margin: 50px;
-  }
-  
-  .logo2 > img {
-    width: 100%;
-    height: 30%;
-  }
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #EEF2FF;
+  width: 100%;
+}
 
-  .logo2 > img {
-    width: 100%;
-    height: 30%;
-  }
-  
+
+#submitbtn {
+  margin-left: 30%;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #FF357E;
+  border: 1px solid #ffdca0;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+#submitbtn2 {
+  margin-right: 30%;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  border: 1px solid #ffdca0;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.message > p {
+  font-size: 50px;
+}
+
+
+.image {
+  padding-left: 250px;
+}
+
+
