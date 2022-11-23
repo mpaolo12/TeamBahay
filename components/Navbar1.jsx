@@ -8,7 +8,7 @@ const Navbar1 = () => {
         <img src="/images/avatar.png" />
       </div>
       <div className={styles.lol}>
-      <h2>Alexa's House</h2>
+        <h2>Alexa's House</h2>
       </div>
     </div>
   );

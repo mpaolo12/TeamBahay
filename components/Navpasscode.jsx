@@ -3,7 +3,6 @@ import styles from "./Navpasscode.module.css";
 const PasscodeEdit = () => {
   return (
     <div className={styles.container}>
-      <div>
         <div className={styles.kahon}>
           <form className={styles.Changepasscode}>
               <label htmlFor="oldpin">Old Pin:    </label>
@@ -15,12 +14,9 @@ const PasscodeEdit = () => {
               <button  type="submit" id={styles.submitbtn}> Confirm</button>
           </form>
         </div>
-      </div>
-      <div>
         <div className={styles.Changepasscodepic}>
             <img src="/images/passcodeicon.png" />
         </div>
-      </div>
     </div>
   );
 };
