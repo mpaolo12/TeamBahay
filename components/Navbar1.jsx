@@ -1,7 +1,7 @@
 
-import styles from "./Navbar.module.css";
+import styles from "./Navbar1.module.css";
 
-const Navbar = () => {
+const Navbar1 = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
@@ -10,11 +10,8 @@ const Navbar = () => {
       <div className={styles.lol}>
       <h2>Alexa's House</h2>
       </div>
-      <div className={styles.lol2}>
-      <h2>Security Record</h2>
-      </div>
     </div>
   );
 };
 
-export default Navbar;
+export default Navbar1;

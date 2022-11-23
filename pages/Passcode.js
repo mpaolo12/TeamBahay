@@ -1,14 +1,12 @@
-import Navbar from "../components/Navbar";
+import Navbar2 from "../components/Navbar2";
 import PasscodeEdit from "../components/Navpasscode";
 
 
 const passcode = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar2 />
       <PasscodeEdit />
-    
-    
     </div>
   );
 };

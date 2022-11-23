@@ -1,13 +1,13 @@
 import Welcome from "../components/Welcome";
-import Navbar from "../components/Navbar";
-import Lower from "../components/Lower";
+import Navbar1 from "../components/Navbar1";
+
   
 const Dashboard = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar1 />
       <Welcome />
-      <Lower />
+
     </div>
   );
 };
