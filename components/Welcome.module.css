@@ -3,12 +3,10 @@
   display: flex;
   align-items: center;
   background-color: #EEF2FF;
-  width: 100%;
 }
 
-
 #submitbtn {
-  width: 150px;
+  width: 170px;
   height: 50px;
   font-size: 16px;
   color: #ffffff;
@@ -18,14 +16,25 @@
   border-radius: 30px;
 }
 
+#submitbtn:hover{
+  background-color: #ffdca0;
+  border: 1px solid #FF357E;
+  color: rgb(0, 0, 0);
+}
+
 #submitbtn2 {
-  padding: 10px;
-  width: 150px;
+  width: 170px;
   height: 50px;
   font-size: 16px;
   border: 1px solid #ffdca0;
   cursor: pointer;
   border-radius: 30px;
+}
+
+#submitbtn2:hover{
+  background-color: #FF357E;
+  border: 1px solid #ffdca0;
+  color: rgb(255, 255, 255);
 }
 
 .message > p {
@@ -38,6 +47,9 @@
   width: 40%;
   font-size: 50px;
   text-align: left;
+}
+.message >h4 >span{
+  color:#FF357E;
 }
 
 .image {

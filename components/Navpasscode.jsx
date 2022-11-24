@@ -5,11 +5,11 @@ const PasscodeEdit = () => {
     <div className={styles.container}>
         <div className={styles.kahon}>
           <form className={styles.Changepasscode}>
-              <label htmlFor="oldpin">Old Pin:    </label>
-              <input id="oldpin"></input><br></br><br></br><br></br>
-              <label htmlFor="newpin">New Pin:    </label>
-              <input id="newpin"></input><br></br><br></br><br></br>
-              <label htmlFor="rnewpin">Re-Type New Pin:    </label>
+              <label htmlFor="oldpin">Old Pin:  </label><br></br>
+              <input id="oldpin"></input><br></br><br></br>
+              <label htmlFor="newpin">New Pin:  </label><br></br>
+              <input id="newpin"></input><br></br><br></br>
+              <label htmlFor="rnewpin">Re-Type New Pin:  </label><br></br>
               <input id="rnewpin"></input><br></br><br></br><br></br>
               <button  type="submit" id={styles.submitbtn}> Confirm</button>
           </form>

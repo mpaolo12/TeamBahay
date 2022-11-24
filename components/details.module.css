@@ -1,17 +1,23 @@
 .container {
   display: flex;
   justify-content: center;
-  
-  margin: 30px;
+  margin: 100px;
 }
 .kahon {
+  display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   background: white;
   padding: 15px 100px 50px 100px;
 }
-
-.kahon > p{
+.image >h2{
+  margin-top: 50px;
+  text-align: center;
+}
+.detail{
+  margin-right: 70px;
+}
+.detail >p{
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -20,5 +26,6 @@
 }
 #sts{
   color: red;
+  font-size: 20px;
 }
 

@@ -3,7 +3,6 @@ import styles from "./recordsitem.module.css";
 const recordstable = () => {
   return (
     <div className={styles.container}>
-      <div>
       <p> Please Select to view a Records</p>
       <table className={styles.TableContent} >
       <thead class="thead_1">
@@ -17,7 +16,6 @@ const recordstable = () => {
         </tr>       
       </tbody>
     </table>
-      </div>
     </div>
   );
 };

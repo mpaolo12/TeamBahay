@@ -5,21 +5,22 @@ const Detailrecords = () => {
     
     <div className={styles.container}>
       <div className={styles.kahon} >
-        <p>Details:</p>
+       
           <div className={styles.detail}>
-            <p>Date and Time:</p>
-            <p id={styles.DaT}>November-23-2022 1:00PM</p><br></br>
-            <p>Status:</p>
-            <p id={styles.sts}>Invalid Attempt</p>
+          <p>Details:</p>
+            <h2>Date and Time:</h2>
+            <h3 id={styles.DaT}>November-23-2022 1:00PM</h3><br></br>
+            <h2>Status:</h2>
+            <h1 id={styles.sts}>Invalid Attempt</h1>
         </div>
-        <br></br>
+ 
         <div className={styles.image}>
-           <p>Capture Image:</p>
+           <h2>Capture Image</h2>
            <img src="/images/captured.png" />
         </div>
-  
-        
+
       </div>
+
     
      </div>
 

@@ -2,6 +2,11 @@
   margin: 100px 300px 100px 300px;
 
 }
+.container >p{
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
 
 .TableContent{
   border: 0.3px solid black;
@@ -10,9 +15,8 @@
   font-size: 0.3cm;
 }   
 .TableContent1{
-  border: 0.3px solid black;
-  border-collapse: collapse;
   text-align: center;
+  font-size: 25px;
 }
 .TableContent2{
   border: 0.3px solid black;

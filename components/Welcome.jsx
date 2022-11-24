@@ -4,9 +4,8 @@ const Welcome = () => {
   return (
     <div className={styles.container}>
       <div className={styles.message}>
-        <p>Welcome to the</p>
-        <p>dashboard Alexa!</p>
-        <button  type="submit" id={styles.submitbtn}>Change Passcode</button>
+        <h4><span> Welcome </span>to the dashboard Alexa!</h4> 
+        <span><button  type="submit" id={styles.submitbtn}>Change Passcode</button> </span>
         <button  type="submit" id={styles.submitbtn2}>Security Record</button>
       </div>
       <div className={styles.image}>
