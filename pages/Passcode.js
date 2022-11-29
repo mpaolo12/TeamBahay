@@ -1,12 +1,14 @@
 import Navbar2 from "../components/Navbar2";
-import PasscodeEdit from "../components/Navpasscode";
+import Passcodeforms from "../components/Passcodeforms";
+import Lower from "../components/Lower";
 
 
 const passcode = () => {
   return (
     <div>
       <Navbar2 />
-      <PasscodeEdit />
+      <Passcodeforms />
+      <Lower/>
     </div>
   );
 };

@@ -1,6 +1,6 @@
-import styles from "./Navpasscode.module.css";
+import styles from "./Passcodeforms.module.css";
 
-const PasscodeEdit = () => {
+const Passcodeforms = () => {
   return (
     <div className={styles.container}>
         <div className={styles.kahon}>
@@ -21,4 +21,4 @@ const PasscodeEdit = () => {
   );
 };
 
-export default PasscodeEdit;
+export default Passcodeforms;

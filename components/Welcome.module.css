@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   background-color: #EEF2FF;
+  background-image: url("../public/images/Rectangle 8.png");
 }
 
 #submitbtn {
@@ -11,7 +12,7 @@
   font-size: 16px;
   color: #ffffff;
   background-color: #FF357E;
-  border: 1px solid #ffdca0;
+  border: 1px solid #FCE300;
   cursor: pointer;
   border-radius: 30px;
 }
@@ -33,7 +34,7 @@
 
 #submitbtn2:hover{
   background-color: #FF357E;
-  border: 1px solid #ffdca0;
+  border: 1px solid #FCE300;
   color: rgb(255, 255, 255);
 }
 
@@ -50,6 +51,10 @@
 }
 .message >h4 >span{
   color:#FF357E;
+}
+
+.message >h4{
+  color:#ffffff;
 }
 
 .image {

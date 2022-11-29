@@ -1,6 +1,7 @@
 import Welcome from "../components/Welcome";
 import Navbar1 from "../components/Navbar1";
-import Lowerimage from "../components/Lowerimage";
+import About from "../components/About";
+import Contactus from "../components/Contactus";
 
   
 const Dashboard = () => {
@@ -8,7 +9,8 @@ const Dashboard = () => {
     <div>
       <Navbar1 />
       <Welcome />
-      <Lowerimage />
+      <About />
+      <Contactus />
     </div>
   );
 };

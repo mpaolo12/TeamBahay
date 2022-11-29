@@ -1,0 +1,11 @@
+.container{
+  background-color: #EEF2FF;
+  background-image: url("../public/images/Rectangle 1.png");
+}
+
+.container >p{
+  text-align: center;
+}
+
+
+  
