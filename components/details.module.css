@@ -14,8 +14,14 @@
   margin-top: 50px;
   text-align: center;
 }
+.image{
+  margin-left: 50px;
+}
 .detail{
   margin-right: 70px;
+}
+.detail >h2{
+  color: rgb(57, 57, 57);
 }
 .detail >p{
   font-size: 40px;
@@ -23,9 +29,13 @@
 }
 #DaT{
   color: gray;
+  font-size: 20px;
+  height: 50px;
 }
 #sts{
   color: red;
   font-size: 20px;
+  height: 50px;
 }
+
 
