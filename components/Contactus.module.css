@@ -1,11 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Fira+Code:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Fira+Code:wght@300&family=Nunito&display=swap');
 .container{
-  background-color: #EEF2FF;
-  background-image: url("../public/images/Rectangle 1.png");
+  margin-top: 400px;
+  background: url("../public/images/Rectangle 1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.container >p{
+.contactimg{
+  display: flex;
+  margin-bottom: 50px;
+
+}
+
+.contactimg >img{
+  margin-left: 47%;
+
+}
+.contactimg >h1{
+  padding-top: 12%;
+  color: #f8367d;
+  margin-left: 110px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+.contact>p{
+  margin-bottom: 0px;
+  color: #EEF2FF;
   text-align: center;
 }
+
+
+.contactdetails {
+  margin-left: 125px;
+  display: flex;
+  gap: 100px;
+
+}
+.logolink{
+  margin-left: 175px;
+  display: flex;
+  margin-bottom: 80px;
+  cursor: pointer;
+  
+}
+.logolink >a{
+  padding-right: 20px;
+}
+.logo2{
+  margin-left: 220px;
+}
+.logo4{
+  margin-left: 295px;
+}
+.logo5{
+  margin-left: 285px;
+}
+.logo6{
+  margin-left: 210px;
+}
+
+.contactdetails >h2{
+  color: #EEF2FF;
+  font-family: 'Fira Code', monospace;
+
+}
+
 
 
   

@@ -1,17 +1,47 @@
 .container {
+  position: fixed;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #ffffff
+  width: 100%;
+  background-color: #ffffff;
+
 }
 
-.buttons {
+
+/* .button {
   display: flex;
   justify-content: space-between;
+  margin-left: 0px;
+} */
+
+.navbarActions {
+  display: flex;
+  gap: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #fa0e64;
+}
+
+.submitbtn:hover {
+  color: #ff6ca2;
+  text-decoration: underline;
+}
+
+.submitbtn1:hover {
+  color: #ff6ca2;
+  text-decoration: underline;
+}
+
+.submitbtn2:hover {
+  color: #ff6ca2;
+  text-decoration: underline;
 }
 
 .lol {
-  padding-right: 85%;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 65%;
 }
 
 .logo > img {

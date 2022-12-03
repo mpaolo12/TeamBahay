@@ -1,42 +1,49 @@
 .container {
-  margin: 100px 300px 100px 300px;
+  margin-top: 200px;
+  background: url('../public/images/Rectangle 2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
 }
-.container >p{
+.records >p{
+  margin-top: 0%;
+  margin-bottom: 8%;
   font-size: 30px;
   font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-left: 25%;
 
 }
 
-.TableContent{
-  border: 0.3px solid black;
-  border-collapse: collapse;
-  width: 100%;
-  font-size: 0.3cm;
-}   
-.TableContent1{
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+}
+  
+.app >table {
+  border: 2px solid forestgreen;
+  background-color: beige;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  font-size: 25px;
+  padding: 20px 0px 20px 0px;
+  margin: 0px 0px 18%;
+
 }
-.TableContent2{
-  border: 0.3px solid black;
-  border-collapse: collapse;
-  text-align: center;
-  padding-top: 400px;
+.app >th {
+  border-bottom: 1px solid black;
+
 }
-.TableContent1, .Table-Content2 {
-  padding: 5px;
-  text-align: center;
+.app >tbody{
+  gap: 30px;
 }
+  
+
+  
+
+  
 
 
-@media screen and (max-width: 500px) {
-  .navbarActions {
-    display: none;
-  }
-  .Changepasscodepic > img {
-    width: 80%;
-    height: 80%;
-
-  }
-}

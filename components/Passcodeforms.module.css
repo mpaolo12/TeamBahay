@@ -1,8 +1,9 @@
 .container {
   display: flex;
-  margin: 50px;
-  padding-top: 80px;
-
+  margin-top: 280px;
+  background: url('../public/images/Rectangle 2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .kahon {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -14,11 +15,11 @@
   border: 1px solid black;
   align-items: center;
 
-
 }
 
 #submitbtn{
-  background-color: rgb(106, 90, 196);
+  background-color: #FF357E;
+  border-color: #42423a;
   font-size: 20px;
   border-width: 0.5px solid;
   border-radius: 10px ; 
@@ -27,8 +28,10 @@
   width: 130px;
   height: 45px;
   color: #fff;
-
-
+  cursor: pointer;
+}
+#submitbtn:hover{
+  background-color: #fa4688;
 }
 
 .Changepasscode >input{

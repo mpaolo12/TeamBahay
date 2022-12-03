@@ -1,6 +1,7 @@
 
 import styles from "./Navbar2.module.css";
 
+
 const Navbar2 = () => {
   return (
     <div className={styles.container}>

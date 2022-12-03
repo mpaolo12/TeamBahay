@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
 .container {
-  padding-top: 5%;
+  padding-top: 10%;
   display: flex;
   align-items: center;
-  background-color: #EEF2FF;
   background-image: url("../public/images/Rectangle 8.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 #submitbtn {
@@ -51,10 +54,12 @@
 }
 .message >h4 >span{
   color:#FF357E;
+  font-family: 'Electrolize', sans-serif;;
 }
 
 .message >h4{
   color:#ffffff;
+  font-family: 'Electrolize', sans-serif;;
 }
 
 .image {

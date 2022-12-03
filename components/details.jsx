@@ -5,7 +5,6 @@ const Detailrecords = () => {
     
     <div className={styles.container}>
       <div className={styles.kahon} >
-       
           <div className={styles.detail}>
           <p>Details:</p>
             <h2>Date and Time:</h2>

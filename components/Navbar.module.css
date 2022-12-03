@@ -1,8 +1,10 @@
 .container {
+  position: fixed;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
   align-items: center;
-  background-color: #ffffff
+  background-color: #ffffff;
+  top: 0;
 }
 
 .lol {
@@ -14,6 +16,7 @@
   padding-right: 45%;
   color:#7e7e7e
 }
+
 
 .logo > img {
   width: 100px;

@@ -1,8 +1,11 @@
 .container {
   display: flex;
+  position: fixed;
   justify-content: space-between;
+  width: 100%;
   align-items: center;
-  background-color: #ffffff
+  background-color: #ffffff;
+  top: 0;
 }
 
 .lol {

@@ -1,21 +1,24 @@
 .container {
   display: flex;
   justify-content: center;
-  margin: 100px;
+  margin-top: 180px;
+  background: url('../public/images/Rectangle 2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .kahon {
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   background: white;
-  padding: 15px 100px 50px 100px;
+  padding: 40px 100px 50px 100px;
 }
 .image >h2{
   margin-top: 50px;
   text-align: center;
 }
 .image{
-  margin-left: 50px;
+  margin-left: 70px;
 }
 .detail{
   margin-right: 70px;
