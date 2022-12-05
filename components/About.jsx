@@ -6,12 +6,8 @@ const About = () => {
       <div className={styles.kahon}>
         <h1>ABOUT</h1>
         <p>Monitoring security lock system is developed  by Team Bahay of BET-COET-NS-4B in the year of 2022.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend nisl id sapien porttitor, 
-              nec efficitur ante viverra. Quisque sagittis blandit velit. Integer ac purus sit amet massa posuere elementum.
-               Morbi iaculis orci sed eros vestibulum rhoncus. Cras a tortor non urna mollis sollicitudin sed ac velit. 
-               Integer in turpis in est tincidunt scelerisque. Vivamus eu dolor mauris. Suspendisse sit amet iaculis mauris. 
-               Suspendisse blandit enim nec orci congue mattis. 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada nibh eu lorem pellentesque, sed ullamcorper justo volutpat.</p>
+            <p>This system will be installed in modern houses that needs high-quality security system. This is a web-based system that tracks the activity of your doorlock. The team, integrated the ussage of RFID and pincode in the doorlock. We also used a camera that auto-captures the person infront of your door in every attempt to unlock the door. These photos will be saved in the database including the other deatails like time and date. This can be used by authorities and house owner as an evidence incase of incidents.
+            </p>
       </div>     
     </div>
   ) ;
