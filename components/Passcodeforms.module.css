@@ -19,10 +19,10 @@
 
 #submitbtn{
   background-color: #FF357E;
-  border-color: #42423a;
+  border: 1px solid #FCE300;
   font-size: 20px;
   border-width: 0.5px solid;
-  border-radius: 10px ; 
+  border-radius: 30px ; 
   margin-left: 110px;
   margin-top: 10px;
   width: 130px;
