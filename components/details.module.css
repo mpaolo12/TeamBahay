@@ -1,7 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 180px;
+  margin-top: 300px;
   background: url('../public/images/Rectangle 2.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
