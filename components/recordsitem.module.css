@@ -1,45 +1,50 @@
 .container {
   margin-top: 200px;
-  background: url('../public/images/Rectangle 2.png');
+  background: url('../public/images/Rectangle 3.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-
 }
 .records >p{
-  margin-top: 0%;
-  margin-bottom: 8%;
+  margin-top: 0px;
+  margin-bottom: 3%;
   font-size: 30px;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  margin-left: 25%;
+  margin-left: 27%;
 
 }
 
-.app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0%;
+.detailbtn{
+  margin: 0px 25px 0px 25px;
+  background-color: #ABA8A8;
+  border: 1px solid black;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 10px 0px 10px;
 }
-  
-.app >table {
-  border: 2px solid forestgreen;
-  background-color: beige;
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+
+.table {
   text-align: center;
-  padding: 20px 0px 20px 0px;
-  margin: 0px 0px 18%;
+  margin-left: 27%;
+  border: 2px solid #000000;
+  background-color: #FAFAFA;
+}
+.th{
+  
+  font-size: 40px;
+  font-weight: 'bold';
 
 }
-.app >th {
-  border-bottom: 1px solid black;
+.td{
+  font-size: 40px;
+  font-family:'Times New Roman', Times, serif;
+}
+.th, .td{
+  padding: 0px 25px 0px 25px;
+  border-right: 1px solid  #000000;
+  border-bottom: 1px solid  #000000;
+}
 
-}
-.app >tbody{
-  gap: 30px;
-}
+
   
 
   
