@@ -4,7 +4,7 @@ import About from "../components/About";
 import Contactus from "../components/Contactus";
 
   
-const Dashboard = () => {
+const index = () => {
   return (
     <div>
       <Navbar1 />
@@ -16,4 +16,4 @@ const Dashboard = () => {
 };
  
 
-export default Dashboard;
+export default index;
