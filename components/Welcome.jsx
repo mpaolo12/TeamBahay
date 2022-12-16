@@ -1,6 +1,7 @@
 import styles from "./Welcome.module.css";
 import React from "react";
 import Link from "next/link"
+import Image from 'next/image'
 
 const Welcome = () => {
   return (
@@ -12,7 +13,7 @@ const Welcome = () => {
           <Link href="/Record"><button  type="submit" id={styles.submitbtn2}>Security Record</button></Link>
       </div>
       <div className={styles.image}>
-        <img src="/images/amico.png" />
+        <Image src="/images/amico.png" alt="" width='400' height='400'/>
       </div>
     </div>
   ) ;

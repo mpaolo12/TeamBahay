@@ -1,4 +1,5 @@
 import styles from "./details.module.css";
+import Image from 'next/image'
 
 const Detailrecords = () => {
   return (
@@ -15,7 +16,7 @@ const Detailrecords = () => {
  
         <div className={styles.image}>
            <h2>Capture Image</h2>
-           <img src="/images/captured.png" />
+           <Image src="/images/captured.png" alt=""  width='200' height='200'/>
         </div>
       </div>
 

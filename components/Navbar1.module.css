@@ -44,11 +44,9 @@
   padding-right: 65%;
 }
 
-.logo > img {
-  width: 100px;
-  height: 100px;
+.logo {
   padding: 10px;
-  margin-left: 15%;
+  margin-left: 15px;
 }
 
 .button:hover {

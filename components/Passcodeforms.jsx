@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Image from 'next/image'
 
 export default function App() {
   const { register, handleSubmit } = useForm();
@@ -48,7 +49,7 @@ export default function App() {
           </form>
         </div>
         <div className={styles.Changepasscodepic}>
-            <img src="/images/passcodeicon.png" />
+            <Image src="/images/passcodeicon.png" alt="" width='600' height='550'/>
         </div>
     </div>
   );

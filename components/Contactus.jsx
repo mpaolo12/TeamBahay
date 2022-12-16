@@ -1,5 +1,6 @@
 import styles from "./Contactus.module.css";
 import {FaGithub, FaFacebook} from 'react-icons/fa';
+import Image from 'next/image'
 
 
 const Contactus = () => {
@@ -7,7 +8,7 @@ const Contactus = () => {
     <div className={styles.container} id={'contactus'}> 
         <div className={styles.contactimg}>
           <h1>CONTACT US</h1>
-          <img src="/images/contactus.png" alt="" />
+          <Image src="/images/contactus.png" alt="" width='400' height='300'/>
         </div> 
         <div className={styles.contactdetails}>
               <h2>Wendel Alvero</h2>
@@ -35,7 +36,7 @@ const Contactus = () => {
         </div> 
 
         <div className={styles.contact}>
-          <img src="" />       
+          <Image src="" alt="" width='0' height='0'/>       
           <p> © Teambahay</p>
         </div> 
 

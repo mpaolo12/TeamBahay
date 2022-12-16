@@ -61,43 +61,48 @@ function Table() {
   
   return (
 
-  <div className={styles.container}>
-      <div className={styles.records}>
-        <p> Please Select to view a Records</p> 
-      </div>
-      <table className={styles.table} {...getTableProps()}>
-          <thead>
-              { headerGroups.map(headerGroup => (
-                  <tr {...headerGroup.getHeaderGroupProps()}>
-                      {headerGroup.headers.map(column => (
-
-                  <th
-                      {...column.getHeaderProps()} className={styles.th}>
-                      {column.render('Header')}
-                  </th>
-                  ))}
-                  </tr>
-              ))}
-          </thead>
-          <tbody {...getTableBodyProps()}>
-              {rows.map(row => {
-                  prepareRow(row)
-                  return (
-                      <tr {...row.getRowProps()}>
-                          {row.cells.map(cell => {
-                              return (
-                                  <td
-                                      {...cell.getCellProps()} className={styles.td}>
-                                      {cell.render('Cell')}
-                                  </td>
-                              )
-                          })}
-                      </tr>
-                  )
-              })}
-          </tbody>
-     </table>
-  </div>
+    <div className={styles.container}>
+    <table className={styles.table} {...getTableProps()}>
+        
+        <thead>
+            {headerGroups.map((headerGroup) => {
+            const { key, ...restHeaderGroupProps } =
+                headerGroup.getHeaderGroupProps();
+            return (
+                <tr key={key} {...restHeaderGroupProps}>
+                {headerGroup.headers.map((column) => {
+                    const { key, ...restColumn } = column.getHeaderProps();
+                    return (
+                    <th key={key} {...restColumn} className={styles.th} >
+                        {column.render("Header")}
+                    </th>
+                    );
+                })}
+                </tr>
+            );
+            })}
+        </thead>
+        
+        <tbody {...getTableBodyProps}>
+            {rows.map((row) => {
+            prepareRow(row);
+            const { key, ...restRowProps } = row.getRowProps();
+            return (
+                <tr key={key} {...restRowProps}>
+                {row.cells.map((cell) => {
+                    const { key, ...restCellProps } = cell.getCellProps();
+                    return (
+                    <td key={key} {...restCellProps} className={styles.td} >
+                        {cell.render("Cell")}
+                    </td>
+                    );
+                })}
+                </tr>
+            );
+            })}
+        </tbody>
+   </table>
+</div>
   )
 }
 
