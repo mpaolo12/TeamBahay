@@ -4,7 +4,7 @@
   padding-top: 10%;
   display: flex;
   align-items: center;
-  background: url("../public/images/Rectangle 8.png");
+  background: url('../public/images/bg-image.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
