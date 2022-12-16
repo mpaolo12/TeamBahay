@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Fira+Code:wght@300&family=Nunito&display=swap');
 .container{
   margin-top: 400px;
-  background: url("../public/images/Rectangle 1.png");
+  background: url("../images/Rectangle 1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
