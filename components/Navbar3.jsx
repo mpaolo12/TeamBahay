@@ -1,8 +1,8 @@
 
-import styles from "./Navbar.module.css";
+import styles from "./Navbar3.module.css";
 import Image from 'next/image'
 
-const Navbar = () => {
+const Navbar3 = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
@@ -12,10 +12,10 @@ const Navbar = () => {
       <h2>Alexa's House</h2>
       </div>
       <div className={styles.lol2}>
-      <h2>Dashboard</h2>
+      <h2>Security Record</h2>
       </div>
     </div>
   );
 };
 
-export default Navbar;
+export default Navbar3;

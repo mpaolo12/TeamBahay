@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
+import Navbar3 from "../components/Navbar3";
 import Detailrecords from "../components/details";
 import Lower from "../components/Lower";
 
 const details = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar3 />
       <Detailrecords/>
       <Lower/>
     </div>

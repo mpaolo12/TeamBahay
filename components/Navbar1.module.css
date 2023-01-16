@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   background-color: #ffffff;
+  height: 100px;
 
 }
 
@@ -21,6 +22,7 @@
   font-size: 20px;
   font-weight: bolder;
   color: #fa0e64;
+  margin-left: 1500px;
 }
 
 .submitbtn:hover {

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.container {
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  background: url('/images/bg-image.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#submitbtn {
+  width: 170px;
+  height: 50px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #FF357E;
+  border: 1px solid #FCE300;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+#submitbtn:hover{
+  background-color: #ffdca0;
+  border: 1px solid #FF357E;
+  color: rgb(0, 0, 0);
+}
+
+#submitbtn2 {
+  width: 170px;
+  height: 50px;
+  font-size: 16px;
+  border: 1px solid #ffdca0;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+#submitbtn2:hover{
+  background-color: #FF357E;
+  border: 1px solid #FCE300;
+  color: rgb(255, 255, 255);
+}
+
+.message > p {
+  font-size: 50px;
+  text-align: left;
+}
+
+.message {
+  padding-left: 18%;
+  width: 40%;
+  font-size: 50px;
+  text-align: left;
+}
+.message >h4 >span{
+  color:#FF357E;
+  font-family: 'Electrolize', sans-serif;;
+}
+
+.message >h4{
+  color:#ffffff;
+  font-family: 'Electrolize', sans-serif;;
+}
+
+.image {
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
+
