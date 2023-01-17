@@ -46,8 +46,9 @@ export default function App() {
               draggable
               pauseOnHover
               theme="colored"
-              /><br></br><label htmlFor="fgotpassword">Forgot Password?</label>
+              /><br></br> <br /> 
           </form>
+          <a href="fgotpassword">Forgot Password?</a>
         </div>
     </div>
   );

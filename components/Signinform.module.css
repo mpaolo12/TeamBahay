@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  margin-top: 280px;
+  margin-top: 200px;
   background: url('../public/images/Rectangle 2.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -29,6 +29,11 @@
   height: 45px;
   color: #fff;
   cursor: pointer;
+}
+.kahon> a{
+  margin-left: 97px;
+  font-size: 20px;
+  text-decoration: underline;
 }
 #submitbtn:hover{
   background-color: #fa4688;
