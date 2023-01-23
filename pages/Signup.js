@@ -1,6 +1,6 @@
-import styles from "../components/Signupform.module.css";
+import styles from "../components/Welcome.module.css";
 import Head from 'next/head'
-import Lower from "../components/Lower";
+// import Lower from "../components/Lower";
 // import { useForm } from "react-hook-form";
 // import React from 'react';
 // import { ToastContainer, toast } from 'react-toastify';
@@ -59,7 +59,7 @@ export default function App() {
             confirmButtonText: 'Okay'
             }).then((result) => {
             if (result.isConfirmed) {
-                window.location.href = "/Signup";
+                window.location.href = "/Signin";
                 console.log(response);
               }
             })
@@ -119,7 +119,7 @@ export default function App() {
         <div className="container py-8 h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-12 col-md-12 col-lg-12 col-xl-7">
-              <div className="card bg-gradient bg-primary text-white">
+              <div className="card bg-gradient bg-dark text-white">
                 <div className="card-body p-5 ">
 
                   <div className="mb-md-5 mt-md-4 pb-5">
@@ -159,7 +159,8 @@ export default function App() {
           </div>
         </div>
       </div>
-    <Lower/>
+      <br/><br/><br/><br/><br/>
+    
     </>
   );
 }

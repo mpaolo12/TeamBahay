@@ -89,7 +89,7 @@ app.post("/read", (request, response) => {
         }else{
           console.log('invalid credentials')
           output["status"]=0;
-          output["message"]="Invalid password";
+          output["message"]="Invalid password!";
         }
     
       }else{
@@ -119,7 +119,7 @@ app.post("/find", (request, response) => {
 
         }else{
         console.log('could not find email')
-        output["message"]="Could not find email";
+        output["message"]="Could not find email!";
         }
         response.json(output)
 
@@ -143,9 +143,9 @@ app.post("/change", async (request, response) => {
         //
         var output={}
         if (password != repassword){
-        output["message"]="Password does not match";
+        output["message"]="Password does not match!";
         }else if(password == "" || repassword == ""){
-        output["message"]="Please fill up the necessary information needed";
+        output["message"]="Please fill up the necessary information needed.";
         }else{
             if(rows.length!=0)
             {
@@ -157,7 +157,7 @@ app.post("/change", async (request, response) => {
             
             }else{
                 console.log('An Error Occured')
-                output["message"]="An Error Occured";
+                output["message"]="An Error Occured!";
             }
         }
         response.json(output)

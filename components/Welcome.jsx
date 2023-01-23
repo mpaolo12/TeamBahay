@@ -7,7 +7,7 @@ const Welcome = () => {
   return (
       <div className={styles.container}>
       <div className={styles.message}>
-        <h4><span> Monitoring </span>Security Lock System</h4> 
+        <h4><span> Motion </span>Detection System</h4> 
           <Link href="/Signin"> <span><button  type="submit" id={styles.submitbtn}>SIGN-IN</button> </span></Link>
           <Link href="/Signup"><button  type="submit" id={styles.submitbtn2}>SIGN-UP</button></Link>
       </div>

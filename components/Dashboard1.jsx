@@ -8,8 +8,8 @@ const Dashboard1 = () => {
       <div className={styles.container}>
       <div className={styles.message}>
         <h4><span> Welcome </span>to dashboard.</h4> 
-          <Link href="/Passcode"> <span><button  type="submit" id={styles.submitbtn}>Change Passcode</button> </span></Link>
-          <Link href="/Record"><button  type="submit" id={styles.submitbtn2}>Security Record</button></Link>
+          <Link href="/records"> <span><button  type="submit" id={styles.submitbtn}>View Records</button> </span></Link>
+          <Link href="./"><button  type="submit" id={styles.submitbtn2}>Log-out</button></Link>
       </div>
       <div className={styles.image}>
         <Image src="/images/amico.png" alt="" width='400' height='400'/>
